@@ -1,30 +1,32 @@
-# ExploreX
+# ExploreX 🚀
 
-# TODO: a cool logo here
+## TODO: put a logo here
 
 Explorex is a powerful search engine that includes a web crawler with robots exclusion protocol, an indexer, and a ranker. It uses the TF-IDF and PageRank algorithms to provide relevant search results.
 
-## Features
+## Screenshots/Demos 📸
+
+## Features ✨
 
 - **Phrase Searching**: Find exact phrases within your search queries.
 - **Suggestions**: Get search suggestions as you type.
 - **Operators**: Use operators to refine your search queries.
 
-## Tech Stack
+## Tech Stack 🛠️
 
 - **Backend**: Java, Spring Boot
 - **Frontend**: React
 - **Database**: MongoDB
 
-## Installation
+## Installation 💾
 
-### Prerequisites
+### Prerequisites ✅
 
 - Java 11 or higher
 - Node.js and npm
 - MongoDB
 
-### Backend Setup
+### Backend Setup ⚙️
 
 1. Clone the repository:
    ```bash
@@ -34,9 +36,9 @@ Explorex is a powerful search engine that includes a web crawler with robots exc
 
 2. Install dependencies  
     ?? do we need this or let's just use the .jar files ??
-# 3. TODO: Run Crawler, then Indexer, then Ranker 
+## 3. TODO: Run Crawler, then Indexer, then Ranker 
 
-### Frontend Setup
+### Frontend Setup 🖥️
 
 1. Navigate to the frontend directory:
     ```bash
