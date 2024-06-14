@@ -10,7 +10,6 @@ import java.util.List;
 public interface IndexerDocumentRepository extends MongoRepository<docelement, ObjectId> {
 
     List<docelement> findByUrl(String u);
- // TODO:   List<docelement> findBy();
     docelement findFirstBy_id(ObjectId objID) ;
 
 }

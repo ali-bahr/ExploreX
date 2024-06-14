@@ -23,7 +23,7 @@ public class SearchController {
 
 
     @GetMapping("/search")
-    public ResponseEntity<List<ArrayList<String>>> search(@RequestParam String keyword) {
+    public ResponseEntity<List<ArrayList<String>>> search(@RequestParam String keyword) throws InterruptedException {
 
         List<ArrayList<String>> result = queryService.searchly(keyword);
 

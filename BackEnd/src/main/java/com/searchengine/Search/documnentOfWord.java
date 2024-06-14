@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -18,5 +19,6 @@ public class documnentOfWord {
     private int tf;
     private double  final_score ;
     private ObjectId objectid;
+    private ArrayList<String> elements ;
 
 }

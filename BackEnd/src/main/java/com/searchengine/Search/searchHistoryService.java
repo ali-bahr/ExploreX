@@ -37,17 +37,5 @@ public class searchHistoryService {
             ret.add(s.getText());
         }
         return ret;
-     /*   List <searchHistory> result = searchhistoryrepository.find();
-        ArrayList<String>ret = new ArrayList<>() ;
-        Collections.sort(result, new Comparator<searchHistory>() {
-            @Override
-            public int compare(searchHistory str1,searchHistory str2) {
-                return Integer.compare(str2.getCount() , str2.getCount());  // for descending order
-            }
-        });
-        for(searchHistory his : result ){
-            ret.add(his.getText());
-        }
-        return ret ;*/
     }
 }
