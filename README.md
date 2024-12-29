@@ -15,19 +15,24 @@ Explorex is a powerful search engine that includes a web crawler with robots exc
 ### Prerequisites ✅
 
 - Java 11 or higher
-- Node.js and npm
+- spring boot
+- react and npm
 - MongoDB
 
 ### Backend Setup ⚙️
 
 1. Clone the repository:
 
-2. Install dependencies and start the server 
-    ```bash
-   npm init 
-   npm install 
-   npm start
-   ```   
+2. create a java project
+
+3. install dependencies
+
+4. run the application file 
+```
+backendFolder/src/main/java/com/searchengine/Search/SearchApplication.java
+```
+and replace the ```backendFolder``` with the path of the backend folder on your device after cloning the repo.   
+      
 ### Frontend Setup 🖥️
 
 1. Navigate to the frontend directory:
